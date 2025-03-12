@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COR</title>
+</head>
 <body>
-
-
-<form action="/action_page.php">
-  <label for="favcolor">escolha a cor:</label>
-  <input type="color" id="favcolor" name="cor" value="#ff0000"><br><br>
-  <input type="submit" value="Enviar">
-</form>
-
+    <h1>COR</h1>
+    <form action="cor.php" method="post">
+        <p>Escolha sua cor!:   <input type="color" name="cxcor" required></p>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>

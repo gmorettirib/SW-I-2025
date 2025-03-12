@@ -1,5 +1,9 @@
 <?php
-    $cor = $_REQUEST['cxcor'];
+    $cor = $_REQUEST["cxcor"];
+?> 
 
-?>
-<p></p>
+<style>
+    body {
+        background-color: <?php echo $cor; ?>;
+    }
+</style>
